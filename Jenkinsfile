@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define environment variables
-        REPO_URL = 'https://github.com/yourusername/your-repo.git'  // Git repository URL
+        REPO_URL = 'https://github.com/gsmsk/hello-java-maven.git'  // Git repository URL
         BRANCH = 'main'  // Git branch to use
         APP_NAME = 'your-java-app'  // Docker image name
         DOCKER_PORT = '8080'  // Port exposed by Docker container
