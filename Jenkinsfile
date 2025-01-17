@@ -44,7 +44,7 @@ pipeline {
         stage('Run Docker Container') {
             steps {
                 script {
-                    // Run the Docker container and expose the application
+                    // Run the Docker container and expose the application ok
                     echo "Running the application in a Docker container..."
                     sh 'docker run -d -p ${HOST_PORT}:${DOCKER_PORT} --name ${APP_NAME}-container ${APP_NAME}'
                 }
